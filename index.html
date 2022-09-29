@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Portfolio Tailwind CSS</title>
+        <link href="dist/output.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <ul
+                class="flex sm:justify-center text-center py-3 justify-center gap-3 font-sans text-lg bg-white w-100 text-black h-20 items-center text-center font-bold">
+
+                <li class="hover:text-sky-300"><a href="#home">Home</a></li>
+                <li class="hover:text-sky-300"><a href="#about">About</a></li>
+                <li class="hover:text-sky-300"><a href="#experience">Experience</a></li>
+                <li class="hover:text-sky-300"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="home" class="bg-[#06283D]">
+                <article class="flex justify-center items-center flex-col text-white">
+                    <h2 class="text-2xl font-bold pb-3 flex justify-center my-4">
+                        HOME
+                    </h2>
+                    <p class="sm: text-center">
+                        Hi, I'm Andi Suhriani, Software Engineering Student in Ruangguru Camp. I'm 19 Years Old.
+                    </p>
+                    <img src="./assets/me.png" alt="" width="300px" />
+                </article>
+            </section>
+
+            <section id="about">
+                <article class="flex justify-center items-center flex-col gap-4">
+                    <h2 class="font-bold text-2xl my-4">ABOUT</h2>
+                    <p class="font-bold sm: text-center">I'm Andi Suhriani. Front End Engineer Student</p>
+                    <div class="flex justify-around gap-7 text-center items-center sm: flex flex-col py-2 px-3">
+                        <p class=>Hi, introduce me Andi Suhriani, usually called
+                            Dea, I am 19 years old. A 5th semester student
+                            at one of the universities in Central Sulawesi,
+                            namely Tadulako University. Besides being active
+                            I am also active in several organizations both
+                            on campus and outside campus. I am also an
+                            Awardee of Bank Indonesia in 2022.</p>
+                            <img src="./assets/deaa.png" alt="" width="200px">
+                    </div>
+                </article>
+            </section>
+
+            <section id="experience" class="bg-[#06283D] flex items-center justify-center ">
+                <article class="text-white flex-col justify-center items-center">
+                    <h2 class="font-bold flex justify-center text-2xl pb-2 my-4">EXPERIENCE</h2>
+                    <div class="flex flex-wrap gap-6 my-8 items-center justify-center sm:flex-col px-4">
+                        <div class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row sm: w-full px-4 py-6">
+                        <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg w-auto" src="./assets/FA.jpeg" alt="">
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Leader of the Anantovea Children's Forum Sigi Regency</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The National Children's Forum is a children's organization fostered by the Government of the Republic of Indonesia through the Ministry of Women's Empowerment and Child Protection of the Republic of Indonesia, to bridge communication and interaction between the government and children throughout Indonesia in the context of fulfilling children's participation rights.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row sm: w-full px-4 py-6">
+                        <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg w-auto" src="./assets/genbi.jpeg" alt="">
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Indonesian New Generation Member (GenBI) in 2022</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The New Generation of Indonesia (GenBI) is a community that was founded on November 11, 2011. This association consists of students who have successfully received the Bank Indonesia (BI) Scholarship. The familiar designation for GenBI members is GenBIers.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row sm: w-full px-4 py-6">
+                        <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg w-auto" src="./assets/panitia.jpeg" alt="">
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Sigi Regency Branch Work Council</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">It is a forum for fostering and developing the future leadership cadre of the scouting movement.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row sm: w-full px-4 py-6">
+                        <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg w-auto" src="./assets/munas.jpeg" alt="">
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Members of the Tadulako University Informatics Engineering Student Association</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Informatics Engineering Student Association is a forum for students majoring in information technology to develop their interests and talents.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section id="contact" class="flex justify-center">
+                <article class="flex flex-col gap-4 items-center">
+                    <h2 class="font-bold text-2xl my-4 ">CONTACT</h2>
+                    <div class="flex flex-row gap-9">
+                        <div class="flex items-center flex-col">
+                            <img src="./assets/instagram.png" alt="" width="50px">
+                            <a href="https://www.instagram.com/deahumairahh/">Instagram</a>
+                        </div>
+                        <div class="flex items-center flex-col">
+                            <img src="./assets/linkedin.png" alt="" width="50px">
+                            <a
+                                href="https://www.linkedin.com/in/andi-suhriani-840723221/"
+                                >Linkedin</a>
+                        </div>
+                        <div class="flex items-center flex-col">
+                            <img src="./assets/twitter.png" alt="" width="50px">
+                            <a href="https://twitter.com/AndiSuhriani"
+                                >Twitter</a>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-xs">
+                        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="yourname">
+                              Name
+                            </label>
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="yourname" type="text" placeholder="Name">
+                          </div>
+                          <div class="mb-6">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="youremail">
+                              Email
+                            </label>
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email">
+                          </div>
+                          <div class="flex items-center justify-center">
+                            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                              Submit
+                            </button>
+                          </div>
+                </article>
+            </section>
+            
+            <footer>
+                <p class="sm: justify-center text-center bg-[#06283D] text-white font-sans py-3">Create By Andi Suhriani - FE2644867</p>
+            </footer>
+        </main>
+    </body>
+</html>
